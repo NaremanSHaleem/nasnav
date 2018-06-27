@@ -3,11 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable()
 export class NewServiceService {
-    product = {
-    'id': 1260,
-    'category_id': 9,
-    'price': '0.0'
-};
+    product = { };
 private options = { headers: new HttpHeaders().set('X-APP-Token', 'a~rR-*Zd9t~H8wm@CmPd')
 .append('X-User-Token', '-nRLLfMyh1CHTtw6f2Qf')
 .append('Content-Type', 'application/json') };
